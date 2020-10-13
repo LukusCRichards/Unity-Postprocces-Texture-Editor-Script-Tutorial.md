@@ -7,6 +7,7 @@ Next, open the script and delete the **start** and **update** functions as they 
 
 
 void OnPostprocessTexture(Texture2D texture)
+    
     {
         string lowerCaseAssetPath = assetPath.ToLower();
         bool isInSpriteDirectory = lowerCaseAssetPath.IndexOf("/sprites/") != -1;
