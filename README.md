@@ -5,6 +5,7 @@ After starting up Unity, create a new folder called **Editors**, this is because
 
 Next, open the script and delete the **start** and **update** functions as they are not needed. Then add in **using UnityEditor** at the top as the script will not work without it. Next write the following parenthesis below:
 
+
 void OnPostprocessTexture(Texture2D texture)
     {
         string lowerCaseAssetPath = assetPath.ToLower();
